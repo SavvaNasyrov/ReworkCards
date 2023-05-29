@@ -10,6 +10,8 @@ namespace ReworkCards
     {
         static void Main(string[] args)
         {
+
+            var deck = new CardsDeck();
         }
     }
 }
