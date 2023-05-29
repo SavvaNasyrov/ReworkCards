@@ -21,7 +21,7 @@ namespace ReworkCards
 
         private bool SetDefaultCards()
         {
-            var Reader = XmlReader.Create("DefaultCards.xml");
+            var Reader = XmlReader.Create("..\\..\\Properties\\DefaultCards.xml");
             Reader.Read();
             Reader.Read();
             Reader.Read();
