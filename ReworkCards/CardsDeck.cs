@@ -39,5 +39,13 @@ namespace ReworkCards
 
             return true;
         }
+
+        public void PrintAllCards()
+        {
+            for (int i = 0; i < _cards.Length; i++)
+            {
+                Console.WriteLine($"{i} - {_cards[i].Name}");
+            }
+        }
     }
 }

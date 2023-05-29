@@ -12,6 +12,10 @@ namespace ReworkCards
         {
 
             var deck = new CardsDeck();
+
+            deck.PrintAllCards();
+
+            Console.ReadKey();
         }
     }
 }
