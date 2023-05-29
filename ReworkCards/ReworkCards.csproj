@@ -64,6 +64,8 @@
   <ItemGroup>
     <Compile Include="Card.cs" />
     <Compile Include="CardsDeck.cs" />
+    <Compile Include="DecksManager.cs" />
+    <Compile Include="IDecksKeeper.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
